@@ -3,7 +3,6 @@ const submitBtn = document.getElementById('submit-btn');
 const result = document.getElementById('result');
 
 let numOfO = [];
-let oOF;
 
 const addOForWord = () => {
     if (+numInput.value % 2 === 0) {
